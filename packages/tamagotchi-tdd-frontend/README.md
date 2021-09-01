@@ -7,11 +7,9 @@ See https://docs.google.com/presentation/d/1e8D21sHkyLx16kdjPDyO2Da5D0mZqM3ynWyr
 
 ## Workshop from scratch ##
 
-It consists on creating the source code from scratch, step by step. Although you can base your approach pon the current project state as an example.
+It consists on creating the source code from scratch, step by step. Check the example source code or extend it and collaborate by pulling requests, your point of view will be very welcome and helpful.
 
-## Example source code ##
-
-### Install and usage ###
+### Example source code ###
 
 Installing and running the unit test scenarios only as follows:
 
@@ -29,7 +27,11 @@ npm run fulltests
 
 ### Commands ###
 
+Create a new project from scratch.
+
 ```
+mkdir /path/to/kata-tdd-tamagotchi-frontend
+cd /path/to/kata-tdd-tamagotchi-frontend
 npm init
 npm install --save-dev mocha sinon assert
 mkdir -p test/unit src
@@ -38,13 +40,15 @@ tree -I node_modules
 
 ### Test List ###
 
+First step, create a test list.
+
 - Ask whether a Tamagotchi is hungry.
 - Feed a Tamagotchi.
 - Make a Tamagotchi poop.
 
 ### Test rounds ###
 
-Red, green, refactor.
+Follow the red, green, refactor cycle and go on.
 
 ### Async/Await testing with filesystem ###
 

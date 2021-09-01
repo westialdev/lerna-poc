@@ -1,0 +1,17 @@
+{
+  "name": "tamagotchi-tdd-frontend",
+  "version": "1.0.0",
+  "description": "Tamagotchi TDD workshop focused on frontend",
+  "main": "index.js",
+  "scripts": {
+    "fulltest": "mocha test/unit test/integration",
+    "test": "mocha test/unit"
+  },
+  "author": "Jaume Mila Bea <jmila@ext.leadtech.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^9.1.1",
+    "sinon": "^11.1.2"
+  }
+}

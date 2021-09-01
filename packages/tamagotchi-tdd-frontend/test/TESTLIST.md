@@ -1,0 +1,3 @@
+- Ask whether a Tamagotchi is hungry.
+- Feed a Tamagotchi.
+- Make a Tamagotchi poop.º

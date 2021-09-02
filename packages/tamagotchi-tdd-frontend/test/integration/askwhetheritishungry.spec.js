@@ -4,7 +4,7 @@ const assert = require("assert");
 const sinon = require("sinon");
 const {describe, it} = require("mocha");
 
-const {FileSystemApiClient} = require("../../src/vendor/filesystemapiclient");
+const {FileSystemApiClient} = require("../../src/vendor/apiclient/filesystemapiclient");
 const {AskWhetherItIsHungry} = require("../../src/application/askwhetheritishungry");
 
 describe("Ask whether a Tamagotchi is hungry", () => {
